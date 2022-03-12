@@ -1,0 +1,93 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
+}
+
+#app {
+  width: 25%;
+  margin: 0 auto 0 auto;
+}
+
+.user-list {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.title {
+  background-color: #0053c0;
+  padding: 15px 15px 5px 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.user-row-header {
+  padding: 20px 0px 5px 0px;
+  font-weight: bold;
+  border-bottom: 2px solid #0053c0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.user-row {
+  border-bottom: 1px solid #e9e9e9;
+  padding: 15px 0px 5px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.user-row:hover {
+  background-color: #f3f3f3;
+  cursor: pointer;
+}
+
+.user-name {
+  width: 40%;
+  display: inline-block;
+}
+
+.user-city {
+  width: 40%%;
+  display: inline-block;
+}
+
+.delete-button {
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #ee0d0d;
+  color: #fff;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #ff7b00;
+}
+
+.create-button {
+  border-radius: 5px;
+  border: 0px;
+  background-color: #11c700;
+  transition: all .2s ease-in-out;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.create-button:hover {
+  background-color: #00ff4c;
+}
+
+.user-input {
+  border-radius: 5px;
+}
+
+.user-form {
+  gap: 5px;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+}
